@@ -1,6 +1,6 @@
 {
-  "name": "Name of the game as it will appear in the game listing",
-  "description": "Description of the game that will appear in the listing",
+  "name": "${GAME_NAME}",
+  "description": "${GAME_DESCRIPTION}",
   "tags": ["game", "tags"],
 
   "_comment_max_players": "Maximum number of players allowed, admins can join even a full server. 0 means unlimited.",
@@ -15,13 +15,13 @@
   },
 
   "_comment_credentials": "Your factorio.com login credentials. Required for games with visibility public",
-  "username": "",
+  "username": "${USERNAME}",
   "password": "",
 
   "_comment_token": "Authentication token. May be used instead of 'password' above.",
-  "token": "",
+  "token": "${TOKEN}",
 
-  "game_password": ${GAME_PASSWORD},
+  "game_password": "${GAME_PASSWORD}",
 
   "_comment_require_user_verification": "When set to true, the server will only allow clients that have a valid Factorio.com account",
   "require_user_verification": true,
